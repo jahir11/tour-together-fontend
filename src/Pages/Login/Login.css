@@ -1,0 +1,12 @@
+.btn-google{
+    font-size: 24px;
+    border: 1px solid gray;
+    padding: 3px 30px;
+    color:tomato;
+    background-color: white;
+}
+
+.btn-google:hover{
+    color:white;
+    background-color: tomato;
+}

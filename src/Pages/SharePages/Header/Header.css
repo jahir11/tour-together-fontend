@@ -1,0 +1,17 @@
+.header{
+    background-color: rgba(238, 129, 110, 0.884);
+   
+}
+
+.header a{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.header a:hover {
+    border-bottom: 2px solid black;
+}
