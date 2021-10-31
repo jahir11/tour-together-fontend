@@ -14,6 +14,7 @@ import Booking from './Pages/Booking/Booking';
 import ManageAllOrders from './Pages/ManageAllOrders/ManageAllOrders';
 import AddNewBlog from './Pages/AddNewBlog/AddNewBlog';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import NotFound from './Pages/NotFound/NotFound'
 
 function App() {
   return (
@@ -46,12 +47,14 @@ function App() {
               <Route path='/about'>
                 <Aboutus/>
               </Route>
-              
               <PrivateRoute path="/orders">
                 <ManageAllOrders/>
               </PrivateRoute>
               <Route path='/login'>
                 <Login/>
+              </Route>
+              <Route>
+                <NotFound></NotFound>
               </Route>
             </Switch>
         <Footer/>
